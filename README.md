@@ -11,7 +11,7 @@ Motif mark takes an inputted FASTA file (with an exon in uppercase and two flank
 
 Given the two test files (motifs.txt and INSR.fasta), the expected output is: 
 
-![output](/Users/david/Desktop/2018_Fall_Term/Bi625/Lectures/Splicing_Assignment/motif-mark/output.svg)
+![output](output.svg)
 
 
 
