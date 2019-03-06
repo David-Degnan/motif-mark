@@ -11,7 +11,7 @@ Motif mark takes an inputted FASTA file (with an exon in uppercase and two flank
 
 Given the two test files (motifs.txt and INSR.fasta), the expected output is: 
 
-![output](output.svg)
+![output](Fig1/Figure1.svg)
 
 
 
