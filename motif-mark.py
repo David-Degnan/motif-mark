@@ -32,8 +32,8 @@ def get_arguments():
 		required=False, type=str, default = "motifs.txt")
 	parser.add_argument("-f", "--fasta", help= "Fasta file with one exon per entry. Exon must be in uppercase, intron in lowercase.",\
 		required=False, type=str, default = "INSR.fasta")
-	parser.add_argument("-s", "--scaling", help = "Sets scaling factor. Image can handle 780 nucleotides when scaling is one. Default scaling is 3.",\
-		required=False, type=str, default = 3)
+	parser.add_argument("-s", "--scaling", help = "Sets scaling factor. Image can handle 780 nucleotides when scaling is one. Default is 3.",\
+		required=False, type=int, default = 3)
 	parser.add_argument("-o", "--output", help= "Name of outputted SVG file. Default is 'output.svg'",\
 		required=False, type=str, default = "output.svg")
 	return parser.parse_args()
