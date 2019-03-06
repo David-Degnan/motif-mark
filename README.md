@@ -9,7 +9,7 @@ Motif mark takes an inputted FASTA file (with an exon in uppercase and two flank
 | -s   | --scaling | Sets scaling factor. Image can handle 780 nucleotides when scaling is one. Default scaling: 3. |
 | -o   | --output  | Name of outputted SVG file. Default: output.svg              |
 
-Given the two test files (motifs.txt and INSR.fasta), the expected output is: 
+Given the two figure files (Fig_1_motifs.txt and Figure_1.fasta), the expected output is: 
 
 ![output](Fig1/Figure1.svg)
 
